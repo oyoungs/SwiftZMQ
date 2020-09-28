@@ -9,18 +9,6 @@ public class Version {
     public static let minor: Int = Int(ZMQ_VERSION_MINOR)
     public static let patch: Int = Int(ZMQ_VERSION_PATCH)
 }
-/*  Socket types. */
-//public var ZMQ_PUB: Int32 { get }
-//public var ZMQ_SUB: Int32 { get }
-//public var ZMQ_REQ: Int32 { get }
-//public var ZMQ_REP: Int32 { get }
-//public var ZMQ_DEALER: Int32 { get }
-//public var ZMQ_ROUTER: Int32 { get }
-//public var ZMQ_PULL: Int32 { get }
-//public var ZMQ_PUSH: Int32 { get }
-//public var ZMQ_XPUB: Int32 { get }
-//public var ZMQ_XSUB: Int32 { get }
-//public var ZMQ_STREAM: Int32 { get }
 
 public enum SocketType: Int32 {
     case pair

@@ -2,8 +2,9 @@
 import ZeroMQ
 
 
-let publisher = Context.shared.newPublisher()
 
-let subscriber = Context.shared.newSubscriber()
+print(Version.major)
+print(Version.minor)
+print(Version.patch)
 
 
